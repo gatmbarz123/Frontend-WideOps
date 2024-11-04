@@ -1,0 +1,197 @@
+/* Welcome page start */
+
+#poll-maker-welcome {
+    border-top: 3px solid #08A9BE;
+    color: #555;
+    padding-top: 110px;
+}
+  
+@media (max-width: 767px) {
+    #poll-maker-welcome {
+        padding-top: 64px;
+    }
+}
+  
+#poll-maker-welcome *,
+#poll-maker-welcome *::before,
+#poll-maker-welcome *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+#poll-maker-welcome .poll-maker-welcome-container {
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 0;
+}
+  
+#poll-maker-welcome .poll-maker-welcome-block {
+    padding: 40px;
+}
+  
+@media (max-width: 767px) {
+    #poll-maker-welcome .poll-maker-welcome-block {
+        padding: 20px;
+    }
+}
+  
+#poll-maker-welcome img {
+    max-width: 100%;
+    height: auto;
+}
+  
+#poll-maker-welcome h1 {
+    color: #222;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 16px 0;
+}
+  
+#poll-maker-welcome h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+}
+  
+#poll-maker-welcome .poll-maker-welcome-button-wrap {
+    max-width: 590px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+#poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-left {
+    width: 50%;
+    padding-right: 20px;
+}
+
+#poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-left a {
+    background-color: #83ABED;
+    border: 1px solid #83ABED;
+    color: #000000;
+}
+
+#poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-left a:hover {
+    background-color: #7092ca;
+}
+
+
+#poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-right a {
+    background: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+}
+
+#poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-right a:hover {
+    background-color: #d7d7d7;
+}
+
+#poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-left a,
+#poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-right a{
+    
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 28px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+  
+@media (max-width: 767px) {
+    #poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-left {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+  
+#poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-right {
+    width: 50%;
+    padding-left: 20px;
+}
+  
+@media (max-width: 767px) {
+    #poll-maker-welcome .poll-maker-welcome-button-wrap .poll-maker-welcome-right {
+       width: 100%;
+        padding: 0;
+    }
+}
+  
+#poll-maker-welcome .poll-maker-welcome-intro {
+    background-color: #fff;
+    border: 2px solid #e1e1e1;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 40px;
+}
+  
+#poll-maker-welcome .poll-maker-welcome-intro .poll-maker-welcome-logo {
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    top: -58px;
+    left: 50%;
+    margin-left: -55px;
+}
+
+#poll-maker-welcome .poll-maker-welcome-intro .poll-maker-welcome-close {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+}
+  
+#poll-maker-welcome .poll-maker-welcome-intro .poll-maker-welcome-video-thumbnail {
+    display: block;
+    margin: 0 auto;
+}
+  
+#poll-maker-welcome .poll-maker-welcome-intro .poll-maker-welcome-button-wrap {
+    margin-top: 25px;
+}
+
+.poll-maker-welcome-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .poll-maker-welcome-modal-content {
+    position: relative;
+    max-width: 700px;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+
+  .poll-maker-welcome-modal-content iframe{
+    width: 100%;
+}
+  
+  .poll-maker-welcome-modal-close {
+    position: absolute;
+    top: 0;
+    right: 3px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+  }
+/* Welcome page end */
